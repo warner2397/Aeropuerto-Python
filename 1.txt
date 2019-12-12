@@ -1,0 +1,7 @@
+1,Charles de Gaulle,FrankFurt,2019-08-15,100000,10,Vuelos inteligentes,2019-08-11,19:00,1
+1,Charles de Gaulle,FrankFurt,2019-08-02,100000.0,22,Vuelo con escala,FrankFurt,Charles de Gaulle,19:00
+1,FrankFurt,Charles de Gaulle,2019-08-22,165000.0,17,Vuelo con escala,Juan SantaMaria,Heatrhow,16:00
+1,FrankFurt,Heatrhow,2019-08-22,165000.0,17,Vuelo con escala,Juan SantaMaria,,10:00
+1,Charles de Gaulle,FrankFurt,2019-08-15,220000,6,Vuelos inteligentes,2019-08-19,16:00,9
+1,Charles de Gaulle,FrankFurt,2019-08-15,150000,5,Vuelos inteligentes,2019-08-12,15:00,8
+1,Juan SantaMaria,FrankFurt,2019-12-12,20000,5,Vuelo directo,2019-12-12,05:00,51

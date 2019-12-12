@@ -1,0 +1,356 @@
+vuelo01 = Vuelos('Expedia',"2019-08-11","2019-08-11","7:00","19:00","Charles de Gaulle","FrankFurt","1",listPista[0], listPuerta[0],listAvion[0], listTripu[0],
+listTripu[1], listTripu[2], listTripu[3], listTripu[4], 100000,10,1)
+
+vuelo02 = Vuelos('Expedia',"2020-01-01","2020-01-01","7:00","19:00",'Juan SantaMaria',"FrankFurt","2",listPista[0], listPuerta[0],listAvion[0], listTripu[0],
+listTripu[1], listTripu[2], listTripu[3], listTripu[4], 100000,10,2)
+
+vuelo03 = Vuelos('JepBlue',"2019-07-01","2019-07-01","8:00","14:00","FrankFurt","Sprinfield","3",listPista[1], listPuerta[1],listAvion[2], listTripu[5],
+listTripu[6],listTripu[7],listTripu[8],listTripu[9], 200000,6,3)
+
+vuelo04 = Vuelos('JepBlue',"2019-07-04","2019-07-04","8:00","14:00","Sprinfield","FrankFurt","4",listPista[1], listPuerta[1],listAvion[2], listTripu[5],
+listTripu[6],listTripu[7],listTripu[8],listTripu[9], 200000,6,4)
+
+vuelo05 = Vuelos("AirQatar","2019-06-16","2019-06-16","3:00","13:00","FrankFurt","Heatrhow","5",listPista[2],listPuerta[2],listAvion[2],listTripu[10],
+listTripu[11],listTripu[12],listTripu[13],listTripu[14], 180000,10,5)
+
+vuelo06 = Vuelos("AirQatar","2019-06-18","2019-06-18","3:00","13:00","Heatrhow","FrankFurt","6",listPista[2],listPuerta[2],listAvion[2],listTripu[10],
+listTripu[11],listTripu[12],listTripu[13],listTripu[14], 180000,10,6)
+
+vuelo07 = Vuelos("Travelocity","2019-08-02","2019-08-02","10:00","15:00","FrankFurt","Charles de Gaulle","7",listPista[3],listPuerta[3],listAvion[3],
+listTripu[15],listTripu[16],listTripu[17],listTripu[18],listTripu[19], 150000,5,7)
+
+vuelo08 = Vuelos("Travelocity","2019-08-12","2019-08-12","10:00","15:00","Charles de Gaulle","FrankFurt","8",listPista[3],listPuerta[3],listAvion[3],
+listTripu[15],listTripu[16],listTripu[17],listTripu[18],listTripu[19], 150000,5,8)
+
+vuelo09 = Vuelos("NicaAir","2019-08-19","2019-08-19","10:00","16:00","Charles de Gaulle","FrankFurt","9",listPista[4],listPuerta[4],listAvion[4],listTripu[20],
+listTripu[21],listTripu[22],listTripu[23],listTripu[24], 220000,6,9)
+
+vuelo10 = Vuelos("NicaAir","2019-08-22","2019-08-22","10:00","16:00","Juan SantaMaria","Charles de Gaulle","10",listPista[4],listPuerta[4],listAvion[4],listTripu[20],
+listTripu[21],listTripu[22],listTripu[23],listTripu[24], 220000,6,10)
+
+vuelo11 = Vuelos('Expedia', '2019-08-15','2019-08-16',"7:00","19:00","Charles de Gaulle","FrankFurt","11",listPista[5],listPuerta[5],listAvion[1],listTripu[50],
+listTripu[51],listTripu[52],listTripu[53],listTripu[54],100000,12,11)
+
+vuelo12 = Vuelos('Expedia', '2019-07-09','2019-07-09',"7:00","19:00","Sprinfield","Charles de Gaulle","12",listPista[5],listPuerta[5],listAvion[1],listTripu[50],
+listTripu[51],listTripu[52],listTripu[53],listTripu[54],100000,12,12)
+
+vuelo13 = Vuelos("JepBlue", "2019-08-12", "2019-08-12", "04:00" , "10:00", "Charles de Gaulle","FrankFurt", "13",listPista[6],listPuerta[6],listAvion[3],listTripu[55],
+listTripu[56],listTripu[57],listTripu[58],listTripu[59], 200000,6,13)
+
+vuelo14 = Vuelos("JepBlue", "2019-07-10", "2019-07-10", "04:00" , "10:00", "Heatrhow", "Charles de Gaulle", "14",listPista[6],listPuerta[6],listAvion[3],listTripu[55],
+listTripu[56],listTripu[57],listTripu[58],listTripu[59], 200000,6,14)
+
+vuelo15 = Vuelos("Travelocity","2019-08-15","2019-08-15","10:00","14:00","Charles de Gaulle","FrankFurt","15",listPista[3],listPuerta[3],listAvion[3],
+listTripu[15],listTripu[16],listTripu[17],listTripu[18],listTripu[19], 150000,4,15)
+
+vuelo16 = Vuelos("Travelocity","2019-08-19","2019-08-19","10:00","14:00","FrankFurt","Charles de gaulle","16",listPista[3],listPuerta[3],listAvion[3],
+listTripu[15],listTripu[16],listTripu[17],listTripu[18],listTripu[19], 150000,4,16)
+
+listVuelos.append(vuelo01),listVuelos.append(vuelo02),listVuelos.append(vuelo03),listVuelos.append(vuelo04),listVuelos.append(vuelo05),
+listVuelos.append(vuelo06),listVuelos.append(vuelo07),listVuelos.append(vuelo08),listVuelos.append(vuelo09),listVuelos.append(vuelo10),
+listVuelos.append(vuelo11),listVuelos.append(vuelo12),listVuelos.append(vuelo13),listVuelos.append(vuelo14),listVuelos.append(vuelo15),
+listVuelos.append(vuelo16)
+
+archivoVuelos = open("losVuelos", "wb")
+pickle.dump(misVuelos, archivoVuelos)
+archivoVuelos.close()
+del(archivoVuelos)
+
+listVuelos = pickle.load(abrirArchiVuelos)
+abrirArchiVuelos.close()
+for p in listVuelos:
+    print(p)
+
+
+# Burned data, Tripulacion
+"""trip01 = Tripulacion(nombre="Sancho Pansa", fecha="01-08-75", idAerolinea="Expedia", puestoTrabajo="Piloto",
+                     estado=False, indentificacion="1")
+trip02 = Tripulacion(nombre="Juancho Barriga", fecha="03-08-85", idAerolinea="Expedia", puestoTrabajo="Piloto",
+                     estado=False, indentificacion="2")
+trip03 = Tripulacion(nombre="Ana Barbara", fecha="01-05-96", idAerolinea="Expedia", puestoTrabajo="Servicio al cliente",
+                     estado=False, indentificacion="3")
+trip04 = Tripulacion(nombre="Alicia Obregon", fecha="01-01-93", idAerolinea="Expedia",
+                     puestoTrabajo="Servicio al cliente", estado=False, indentificacion="4")
+trip05 = Tripulacion(nombre="Angelica Monge", fecha="02-05-91", idAerolinea="Expedia",
+                     puestoTrabajo="Servicio al cliente", estado=False, indentificacion="5")
+
+trip06 = Tripulacion(nombre="Beronica Berrocal", fecha="03-05-82", idAerolinea="JepBlue", puestoTrabajo="Piloto",
+                     estado=False, indentificacion="26")
+trip07 = Tripulacion(nombre="Gorge Bermudes", fecha="03-08-98", idAerolinea="JepBlue", puestoTrabajo="Piloto",
+                     estado=False, indentificacion="7")
+trip08 = Tripulacion(nombre="Valeria Monge", fecha="03-03-82", idAerolinea="JepBlue",
+                     puestoTrabajo="Servicio al cliente", estado=False, indentificacion="8")
+trip09 = Tripulacion(nombre="Elizabelh Laguna", fecha="03-05-82", idAerolinea="JepBlue",
+                     puestoTrabajo="Servicio al cliente", estado=False, indentificacion="9")
+trip10 = Tripulacion(nombre="Katherine Berrocal", fecha="26-05-92", idAerolinea="JepBlue",
+                     puestoTrabajo="Servicio al cliente", estado=False, indentificacion="10")
+
+trip11 = Tripulacion(nombre="Jory Aragon", fecha="23-05-88", idAerolinea="Priceline", puestoTrabajo="Piloto",
+                     estado=False, indentificacion="11")
+trip12 = Tripulacion(nombre="Ariel Mondragon", fecha="23-12-87", idAerolinea="Priceline", puestoTrabajo="Piloto",
+                     estado=False, indentificacion="12")
+trip13 = Tripulacion(nombre="Jerelyn Barbosa", fecha="25-06-98", idAerolinea="Priceline",
+                     puestoTrabajo="Servicio al cliente", estado=True, indentificacion="13")
+trip14 = Tripulacion(nombre="Ashley Mora", fecha="21-04-99", idAerolinea="Priceline",
+                     puestoTrabajo="Servicio al cliente", estado=False, indentificacion="14")
+trip15 = Tripulacion(nombre="Dania Solis", fecha="13-11-96", idAerolinea="Priceline",
+                     puestoTrabajo="Servicio al cliente", estado=False, indentificacion="15")
+
+trip16 = Tripulacion(nombre="Juan Hurtado", fecha="11-11-89", idAerolinea="Travelocity", puestoTrabajo="Piloto",
+                     estado=False, indentificacion="16")
+trip17 = Tripulacion(nombre="Stiven Navarro", fecha="13-11-90", idAerolinea="Travelocity", puestoTrabajo="Piloto",
+                     estado=False, indentificacion="17")
+trip18 = Tripulacion(nombre="Jorleny Monge", fecha="17-01-90", idAerolinea="Travelocity",
+                     puestoTrabajo="Servicio al cliente", estado=False, indentificacion="18")
+trip19 = Tripulacion(nombre="Jenny Alvaerado", fecha="22-12-98", idAerolinea="Travelocity",
+                     puestoTrabajo="Servicio al cliente", estado=False, indentificacion="19")
+trip20 = Tripulacion(nombre="Tifany Elizondo", fecha="14-11-97", idAerolinea="Travelocity",
+                     puestoTrabajo="Servicio al cliente", estado=False, indentificacion="20")
+
+trip21 = Tripulacion(nombre="Fabricio Paniagua", fecha="06-06-92", idAerolinea="CheapAir", puestoTrabajo="Piloto",
+                     estado=False, indentificacion="21")
+trip22 = Tripulacion(nombre="Rufino Solis", fecha="03-05-93", idAerolinea="CheapAir", puestoTrabajo="Piloto",
+                     estado=False, indentificacion="22")
+trip23 = Tripulacion(nombre="Piojo Cascante", fecha="03-05-72", idAerolinea="CheapAir",
+                     puestoTrabajo="Servicio al cliente", estado=False, indentificacion="23")
+trip24 = Tripulacion(nombre="Ivannia Cascante", fecha="07-09-95", idAerolinea="CheapAir",
+                     puestoTrabajo="Servicio al cliente", estado=False, indentificacion="24")
+trip25 = Tripulacion(nombre="Middalia Rodriguez", fecha="03-08-98", idAerolinea="CheapAir",
+                     puestoTrabajo="Servicio al cliente", estado=True, indentificacion="25")
+
+trip26 = Tripulacion(nombre="Walter Mora", fecha="03-08-98", idAerolinea="America", puestoTrabajo="Piloto", estado=True,
+                     indentificacion="26")
+trip27 = Tripulacion(nombre="Jason Derulo", fecha="02-08-96", idAerolinea="America", puestoTrabajo="Piloto",
+                     estado=True, indentificacion="27")
+trip28 = Tripulacion(nombre="Dilana Mora", fecha="02-01-99", idAerolinea="America", puestoTrabajo="Servicio al cliente",
+                     estado=True, indentificacion="28")
+trip29 = Tripulacion(nombre="Carmen Lira", fecha="03-05-2000", idAerolinea="America",
+                     puestoTrabajo="Servicio al cliente", estado=True, indentificacion="29")
+trip30 = Tripulacion(nombre="Maria Villalobos", fecha="31-12-1999", idAerolinea="America",
+                     puestoTrabajo="Servicio al cliente", estado=True, indentificacion="30")
+
+trip31 = Tripulacion(nombre="Chepe García", fecha="03-05-1995", idAerolinea="Emirates", puestoTrabajo="Piloto",
+                     estado=True, indentificacion="31")
+trip32 = Tripulacion(nombre="Jose Pepino", fecha="18-12-1993", idAerolinea="Emirates", puestoTrabajo="Piloto",
+                     estado=True, indentificacion="32")
+trip33 = Tripulacion(nombre="Stephani Hernandez", fecha="05-11-1994", idAerolinea="Emirates",
+                     puestoTrabajo="Servicio al cliente", estado=True, indentificacion="33")
+trip34 = Tripulacion(nombre="Karla Molina", fecha="09-11-1996", idAerolinea="Emirates",
+                     puestoTrabajo="Servicio al cliente", estado=True, indentificacion="34")
+trip35 = Tripulacion(nombre="Maria Arce", fecha="21-03-1999", idAerolinea="Emirates",
+                     puestoTrabajo="Servicio al cliente", estado=True, indentificacion="35")
+
+trip36 = Tripulacion(nombre="Alvaro Sanchez", fecha="03-08-1990", idAerolinea="AirQatar", puestoTrabajo="Piloto",
+                     estado=True, indentificacion="36")
+trip37 = Tripulacion(nombre="Benigno Espinoza", fecha="19-10-1991", idAerolinea="AirQatar", puestoTrabajo="Piloto",
+                     estado=True, indentificacion="37")
+trip38 = Tripulacion(nombre="Milagros Martinez", fecha="05-08-1994", idAerolinea="AirQatar",
+                     puestoTrabajo="Servicio al cliente", estado=True, indentificacion="38")
+trip39 = Tripulacion(nombre="Fernanda Loria", fecha="22-01-2000", idAerolinea="AirQatar",
+                     puestoTrabajo="Servicio al cliente", estado=True, indentificacion="39")
+trip40 = Tripulacion(nombre="Elky Mora", fecha="23-02-1999", idAerolinea="AirQatar",
+                     puestoTrabajo="Servicio al cliente", estado=True, indentificacion="40")
+
+trip41 = Tripulacion(nombre="Keilor Gamboa", fecha="10-10-2000", idAerolinea="NicaAir", puestoTrabajo="Piloto",
+                     estado=True, indentificacion="41")
+trip42 = Tripulacion(nombre="Daniel Mora", fecha="17-04-1995", idAerolinea="NicaAir", puestoTrabajo="Piloto",
+                     estado=True, indentificacion="42")
+trip43 = Tripulacion(nombre="Reichel Gamboa", fecha="10-10-2000", idAerolinea="NicaAir",
+                     puestoTrabajo="Servicio al cliente", estado=True, indentificacion="43")
+trip44 = Tripulacion(nombre="Esther Espinoza", fecha="20-12-2001", idAerolinea="NicaAir",
+                     puestoTrabajo="Servicio al cliente", estado=True, indentificacion="44")
+trip45 = Tripulacion(nombre="Lisseth Castro", fecha="21-05-91", idAerolinea="NicaAir",
+                     puestoTrabajo="Servicio al cliente", estado=True, indentificacion="45")
+
+trip46 = Tripulacion(nombre="Emilio Corrales", fecha="27-06-96", idAerolinea="AirTicos", puestoTrabajo="Piloto",
+                     estado=True, indentificacion="46")
+trip47 = Tripulacion(nombre="Efra Martinez", fecha="26-09-98", idAerolinea="AirTicos", puestoTrabajo="Piloto",
+                     estado=True, indentificacion="47")
+trip48 = Tripulacion(nombre="Kevin Campos", fecha="29-07-90", idAerolinea="AirTicos",
+                     puestoTrabajo="Servicio al cliente", estado=True, indentificacion="48")
+trip49 = Tripulacion(nombre="Valeria Monge", fecha="15-08-2000", idAerolinea="AirTicos",
+                     puestoTrabajo="Servicio al cliente", estado=True, indentificacion="49")
+trip50 = Tripulacion(nombre="Nathalia Umaña", fecha="19-04-99", idAerolinea="AirTicos",
+                     puestoTrabajo="Servicio al cliente", estado=True, indentificacion="50")
+
+trip51 = Tripulacion(nombre="Marvin Jara", fecha="27-12-1990", idAerolinea="Expedia", puestoTrabajo="Piloto",
+                     estado=False, indentificacion="51")
+trip52 = Tripulacion(nombre="Jimy Torres", fecha="12-01-1987", idAerolinea="Expedia", puestoTrabajo="Piloto",
+                     estado=False, indentificacion="52")
+trip53 = Tripulacion(nombre="Patricia lopez", fecha="03-08-98", idAerolinea="Expedia",
+                     puestoTrabajo="Servicio al cliente", estado=False, indentificacion="53")
+trip54 = Tripulacion(nombre="Modesta Seque", fecha="05-12-1995", idAerolinea="Expedia",
+                     puestoTrabajo="Servicio al cliente", estado=False, indentificacion="54")
+trip55 = Tripulacion(nombre="Juanita Araya", fecha="12-11-2000", idAerolinea="Expedia",
+                     puestoTrabajo="Servicio al cliente", estado=False, indentificacion="55")
+
+trip56 = Tripulacion(nombre="Alex Pato", fecha="11-11-2000", idAerolinea="JepBlue", puestoTrabajo="Piloto",
+                     estado=False, indentificacion="56")
+trip57 = Tripulacion(nombre="David Ramirez", fecha="12-11-1995", idAerolinea="JepBlue", puestoTrabajo="Piloto",
+                     estado=False, indentificacion="57")
+trip58 = Tripulacion(nombre="Ale Acuña", fecha="18-01-1987", idAerolinea="JepBlue", puestoTrabajo="Servicio al cliente",
+                     estado=False, indentificacion="58")
+trip59 = Tripulacion(nombre="Kari Peña", fecha="18-05-2000", idAerolinea="JepBlue", puestoTrabajo="Servicio al cliente",
+                     estado=False, indentificacion="59")
+trip60 = Tripulacion(nombre="Eilyn Nal", fecha="21-04-1993", idAerolinea="JepBlue", puestoTrabajo="Servicio al cliente",
+                     estado=False, indentificacion="60")
+
+trip61 = Tripulacion(nombre="Jeremy Rojas", fecha="19-06-2019", idAerolinea="Travelocity", puestoTrabajo="Piloto",
+                     estado=True, indentificacion="61")
+trip62 = Tripulacion(nombre="Jeudi barquero", fecha="11-06-2019", idAerolinea="Travelocity", puestoTrabajo="Piloto",
+                     estado=True, indentificacion="62")
+trip63 = Tripulacion(nombre="Jere Leiton", fecha="23-04-1993", idAerolinea="Travelocity",
+                     puestoTrabajo="Servicio al cliente", estado=True, indentificacion="63")
+trip64 = Tripulacion(nombre="Jeny Chiroldes", fecha="22-08-1990", idAerolinea="Travelocity",
+                     puestoTrabajo="Servicio al cliente", estado=True, indentificacion="64")
+trip65 = Tripulacion(nombre="Andrea Chavez", fecha="28-09-1999", idAerolinea="Travelocity",
+                     puestoTrabajo="Servicio al cliente", estado=True, indentificacion="65")
+
+listTripu.append(trip01), listTripu.append(trip02), listTripu.append(trip03), listTripu.append(
+    trip04), listTripu.append(trip05),
+listTripu.append(trip06), listTripu.append(trip07), listTripu.append(trip08), listTripu.append(
+    trip09), listTripu.append(trip10),
+listTripu.append(trip11), listTripu.append(trip12), listTripu.append(trip13), listTripu.append(
+    trip14), listTripu.append(trip15),
+listTripu.append(trip16), listTripu.append(trip17), listTripu.append(trip18), listTripu.append(
+    trip19), listTripu.append(trip20),
+listTripu.append(trip21), listTripu.append(trip22), listTripu.append(trip23), listTripu.append(
+    trip24), listTripu.append(trip25),
+listTripu.append(trip26), listTripu.append(trip27), listTripu.append(trip28), listTripu.append(
+    trip29), listTripu.append(trip30),
+listTripu.append(trip31), listTripu.append(trip32), listTripu.append(trip33), listTripu.append(
+    trip34), listTripu.append(trip35),
+listTripu.append(trip36), listTripu.append(trip37), listTripu.append(trip38), listTripu.append(
+    trip39), listTripu.append(trip40),
+listTripu.append(trip41), listTripu.append(trip42), listTripu.append(trip43), listTripu.append(
+    trip44), listTripu.append(trip45),
+listTripu.append(trip46), listTripu.append(trip47), listTripu.append(trip48), listTripu.append(
+    trip49), listTripu.append(trip50),
+listTripu.append(trip51), listTripu.append(trip52), listTripu.append(trip53), listTripu.append(
+    trip54), listTripu.append(trip55),
+listTripu.append(trip56), listTripu.append(trip57), listTripu.append(trip58), listTripu.append(
+    trip59), listTripu.append(trip60),
+listTripu.append(trip61), listTripu.append(trip62), listTripu.append(trip63), listTripu.append(
+    trip64), listTripu.append(trip65)"""
+
+
+# Burned data, aviones
+avi01 = Avion(idAvion="EXP-1", modeloAvion="EXPI01", annoContruc="2003", aerolineaPertenece="Expedia",
+              capacidadPasajeros="520", estado="En uso", contador=1)
+avi02 = Avion(idAvion="EXP-2", modeloAvion="EXPI02", annoContruc="2005", aerolineaPertenece="Expedia",
+              capacidadPasajeros="410", estado="Disponible", contador=1)
+avi03 = Avion(idAvion="JEP-1", modeloAvion="JEPB01", annoContruc="2007", aerolineaPertenece="JepBlue",
+              capacidadPasajeros="180", estado="Disponible", contador=2)
+avi04 = Avion(idAvion="JEP-2", modeloAvion="JEPB02", annoContruc="2007", aerolineaPertenece="JepBlue",
+              capacidadPasajeros="220", estado="En uso", contador=3)
+avi05 = Avion(idAvion="PRI-1", modeloAvion="PRIC01", annoContruc="2004", aerolineaPertenece="Priceline",
+              capacidadPasajeros="400", estado="En uso", contador=1)
+avi06 = Avion(idAvion="PRI-2", modeloAvion="PRIC02", annoContruc="2005", aerolineaPertenece="Priceline",
+              capacidadPasajeros="320", estado="En uso", contador=0)
+avi07 = Avion(idAvion="TRA-1", modeloAvion="TRAV01", annoContruc="2003", aerolineaPertenece="Travelocity",
+              capacidadPasajeros="230", estado="Disponible", contador=0)
+avi08 = Avion(idAvion="TRA-2", modeloAvion="TRAV02", annoContruc="2004", aerolineaPertenece="Travelocity",
+              capacidadPasajeros="520", estado="En uso", contador=0)
+avi09 = Avion(idAvion="CHE-1", modeloAvion="CHEA01", annoContruc="2007", aerolineaPertenece="CheapAir",
+              capacidadPasajeros="180", estado="Disponible", contador=0)
+avi10 = Avion(idAvion="CHE-2", modeloAvion="CHEA02", annoContruc="2009", aerolineaPertenece="CheapAir",
+              capacidadPasajeros="220", estado="Disponible", contador=0)
+avi11 = Avion(idAvion="AME-1", modeloAvion="AMER01", annoContruc="2005", aerolineaPertenece="America",
+              capacidadPasajeros="310", estado="En uso", contador=0)
+avi12 = Avion(idAvion="AME-2", modeloAvion="AMER02", annoContruc="2001", aerolineaPertenece="America",
+              capacidadPasajeros="310", estado="Disponible", contador=0)
+avi13 = Avion(idAvion="EMI-1", modeloAvion="EMIR01", annoContruc="2002", aerolineaPertenece="Emirates",
+              capacidadPasajeros="220", estado="Disponible", contador=0)
+avi14 = Avion(idAvion="EMI-2", modeloAvion="EMIR02", annoContruc="2009", aerolineaPertenece="Emirates",
+              capacidadPasajeros="400", estado="En uso", contador=0)
+avi15 = Avion(idAvion="AIR-1", modeloAvion="AIRQ01", annoContruc="2002", aerolineaPertenece="AirQatar",
+              capacidadPasajeros="320", estado="Disponible", contador=0)
+avi16 = Avion(idAvion="AIR-2", modeloAvion="AIRQ02", annoContruc="2011", aerolineaPertenece="AirQatar",
+              capacidadPasajeros="600", estado="Disponible", contador=0)
+avi17 = Avion(idAvion="NIC-1", modeloAvion="NICA01", annoContruc="2003", aerolineaPertenece="NicaAir",
+              capacidadPasajeros="200", estado="En uso", contador=0)
+avi18 = Avion(idAvion="NIC-2", modeloAvion="NICA02", annoContruc="2003", aerolineaPertenece="NicaAir",
+              capacidadPasajeros="210", estado="En uso", contador=0)
+avi19 = Avion(idAvion="AII-1", modeloAvion="AIIR01", annoContruc="2001", aerolineaPertenece="AirTicos",
+              capacidadPasajeros="180", estado="Disponible", contador=0)
+avi20 = Avion(idAvion="AII-2", modeloAvion="AIIR02", annoContruc="2009", aerolineaPertenece="AirTicos",
+              capacidadPasajeros="410", estado="Disponible", contador=0)
+listAvion.append(avi01), listAvion.append(avi02), listAvion.append(avi03), listAvion.append(avi04), listAvion.append(
+    avi05),
+listAvion.append(avi06), listAvion.append(avi07), listAvion.append(avi08), listAvion.append(avi09), listAvion.append(
+    avi10),
+listAvion.append(avi11), listAvion.append(avi12), listAvion.append(avi13), listAvion.append(avi14), listAvion.append(
+    avi15),
+listAvion.append(avi16), listAvion.append(avi17), listAvion.append(avi18), listAvion.append(avi19), listAvion.append(
+    avi20)
+
+# Burned data, pistas
+pista01 = Pista(numPista="1", estado="No disponible")
+pista02 = Pista(numPista="2", estado="No disponible")
+pista03 = Pista(numPista="3", estado="No disponible")
+pista04 = Pista(numPista="4", estado="No disponible")
+pista05 = Pista(numPista="5", estado="No disponible")
+pista06 = Pista(numPista="6", estado="Disponible")
+pista07 = Pista(numPista="7", estado="Disponible")
+pista08 = Pista(numPista="8", estado="Disponible")
+pista09 = Pista(numPista="9", estado=" Disponible")
+pista10 = Pista(numPista="10", estado="En mantenimiento")
+listPista.append(pista01), listPista.append(pista02), listPista.append(pista03), listPista.append(
+    pista04), listPista.append(pista05),
+listPista.append(pista06), listPista.append(pista07), listPista.append(pista08), listPista.append(
+    pista09), listPista.append(pista10)
+
+# Burned data, Puertas
+puerta01 = Puerta(numPuerta="1", estado="En uso")
+puerta02 = Puerta(numPuerta="2", estado="En uso")
+puerta03 = Puerta(numPuerta="3", estado="En uso")
+puerta04 = Puerta(numPuerta="4", estado="En uso")
+puerta05 = Puerta(numPuerta="5", estado="En uso")
+puerta06 = Puerta(numPuerta="6", estado="Disponible")
+puerta07 = Puerta(numPuerta="7", estado="Disponible")
+puerta08 = Puerta(numPuerta="8", estado="Disponible")
+puerta09 = Puerta(numPuerta="9", estado="Disponible")
+puerta10 = Puerta(numPuerta="10", estado="Disponible")
+listPuerta.append(puerta01), listPuerta.append(puerta02), listPuerta.append(puerta03), listPuerta.append(
+    puerta04), listPuerta.append(puerta05),
+listPuerta.append(puerta06), listPuerta.append(puerta07), listPuerta.append(puerta08), listPuerta.append(
+    puerta09), listPuerta.append(puerta10)
+
+# Burned data, Aerolineas
+aerolinea01 = Aerolinea(nomAero="Expedia", annoFund=2002, tipoAero="Internacional", cantPaises=5)
+aerolinea02 = Aerolinea(nomAero="JepBlue", annoFund=2003, tipoAero="Internacional", cantPaises=3)
+aerolinea03 = Aerolinea(nomAero="Priceline", annoFund=2004, tipoAero="Internacional", cantPaises=4)
+aerolinea04 = Aerolinea(nomAero="Travelocity", annoFund=2005, tipoAero="Internacional", cantPaises=5)
+aerolinea05 = Aerolinea(nomAero="CheapAir", annoFund=2006, tipoAero="Internacional", cantPaises=4)
+aerolinea06 = Aerolinea(nomAero="America", annoFund=2004, tipoAero="Internacional", cantPaises=3)
+aerolinea07 = Aerolinea(nomAero="Emirates", annoFund=2006, tipoAero="Internacional", cantPaises=5)
+aerolinea08 = Aerolinea(nomAero="AirQatar", annoFund=2008, tipoAero="Internacional", cantPaises=4)
+aerolinea09 = Aerolinea(nomAero="NicaAir", annoFund=2010, tipoAero="Internacional", cantPaises=2)
+aerolinea10 = Aerolinea(nomAero="AirTicos", annoFund=2004, tipoAero="Nacional", cantPaises=5)
+listAerolinea.append(aerolinea01), listAerolinea.append(aerolinea02), listAerolinea.append(
+    aerolinea03), listAerolinea.append(aerolinea04),
+listAerolinea.append(aerolinea05), listAerolinea.append(aerolinea06), listAerolinea.append(
+    aerolinea07), listAerolinea.append(aerolinea08),
+listAerolinea.append(aerolinea09), listAerolinea.append(aerolinea10)
+
+# Burned data, Aeropuertos
+aeropuerto01 = Aeropuerto(idAero="AER-01", nombreAero="Juan SantaMaria", ciudad="San José", pais="CostaRica")
+aeropuerto02 = Aeropuerto(idAero="AER-02", nombreAero="Sprinfield", ciudad="Nuevo Mexico", pais="Eslovaquia")
+aeropuerto03 = Aeropuerto(idAero="AER-03", nombreAero="Heatrhow", ciudad="Londres", pais="ReinoUnido")
+aeropuerto04 = Aeropuerto(idAero="AER-04", nombreAero="Charles de Gaulle", ciudad="París", pais="Francia")
+aeropuerto05 = Aeropuerto(idAero="AER-05", nombreAero="FrankFurt", ciudad="FrankFurt", pais="Alemania")
+
+listAeropuerto.append(aeropuerto01), listAeropuerto.append(aeropuerto02), listAeropuerto.append(aeropuerto03),
+listAeropuerto.append(aeropuerto04), listAeropuerto.append(aeropuerto05)
+
+
+# Burned data, administrador, pasajero
+admin1 = Administrador(cedula="22", nombre="Alejandro Umana", edad="20", email="ale123@hotmail.com", contra="11",
+                       tipo=True)
+admin2 = Administrador(cedula="207820483", nombre="Warner Hurtado", edad="20", email="warner3898@gmail.com",
+                       contra="22", tipo=True)
+pasajero1 = Pasajero(idPasaporte="12345611", nombre="Bryan Laguna Espinoza", edad="19", email="brianq34outlook.com",
+                     contra="33", tipo=False)
+
+listaUsu.append(admin1), listaUsu.append(admin2), listaUsu.append(pasajero1)
+

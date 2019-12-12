@@ -1,0 +1,2 @@
+44,Charles de Gaulle,Heatrhow,2019-08-11,125000.0,16,Vuelo con escala,FrankFurt,Sprinfield,23:00
+44,Charles de Gaulle,Sprinfield,2019-08-11,125000.0,16,Vuelo con escala,FrankFurt,,10:00
